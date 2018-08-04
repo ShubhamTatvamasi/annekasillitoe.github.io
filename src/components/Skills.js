@@ -72,7 +72,17 @@ class Skills extends Component {
             ]}
           />
           <Stars
-            skill="Sketch"
+            skill="Sketch/Adobe XD"
+            className={[
+              "fa-star",
+              "fa-star",
+              "fa-star",
+              "fa-star-o",
+              "fa-star-o"
+            ]}
+          />
+          <Stars
+            skill="Zeplin"
             className={[
               "fa-star",
               "fa-star",
@@ -82,11 +92,11 @@ class Skills extends Component {
             ]}
           />
           <Stars
-            skill="MarvelApp"
+            skill="Accessibility"
             className={[
               "fa-star",
               "fa-star",
-              "fa-star-o",
+              "fa-star",
               "fa-star-o",
               "fa-star-o"
             ]}

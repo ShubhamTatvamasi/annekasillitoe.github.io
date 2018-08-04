@@ -4,11 +4,11 @@ class Conferences extends Component {
   render() {
     return (
       <section className="d-flex pt-sm-5 pt-1 pb-5 px-sm-3 px-1 justify-content-center">
-        <div className="text-center pt-3">
-          <h1 className="pb-sm-4 pb-1">Conferences and Talks</h1>
+        <div className="pt-3">
+          <h1 className="pb-sm-4 pb-1 text-center">Conferences and Talks</h1>
           <p>
-            I like attending conferences and meetups around women in tech and
-            accessibilty and design.
+            I like attending conferences and meetups around women in tech,
+            accessibility and design.
           </p>
           <p>Some of these have included, but are not limited to:</p>
           <ul className="conferences-list">
@@ -18,10 +18,15 @@ class Conferences extends Component {
             </li>
             <li>Tech(K)now Day - October 2017 & February 2018</li>
             <li>GovDesign meetups - 2018</li>
+            <li>ReactJSGirls meetups - 2018</li>
           </ul>
           <p>
             I've recently just started giving talks in school's to young girls
             about getting involved in STEM careers.
+          </p>
+          <p>
+            I've also recently started presenting talks and workshops in the
+            tech community around accessibility.
           </p>
         </div>
       </section>
